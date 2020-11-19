@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+         <script>
+           let starArray1=["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe" , "Regulus"];
+           let starArray2=["UrsaMinor","Tarurus","Cygnus","Lyra","Aquila","UrsaMajor","Leo"];
+           let newSartValue=prompt("fill")
+           function changeStar(){
+              for (let index = 0; index < starArray1.length; index++) {
+                    if(newSartValue===starArray1[index]){
+                         starArray2[index]=starArray1[index];
+                    }
+                  
+              }
+              alert(starArray2)
+           }
+           changeStar();
+    </script>
+</body>
+</html>
